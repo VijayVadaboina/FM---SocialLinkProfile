@@ -1,0 +1,73 @@
+body {
+  box-sizing: border-box;
+  background-color: #000000;
+  color: #ffffff;
+}
+.outer-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #8ec5fc;
+  background-image: linear-gradient(62deg, #8ec5fc 0%, #e0c3fc 100%);
+}
+.inner-container {
+  width: 60%px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #8ec5fc;
+  background-image: linear-gradient(62deg, #8ec5fc 0%, #e0c3fc 100%);
+  border: #8ec5fc 1px solid;
+  border-radius: 30px;
+  margin: 30px;
+  padding: 50px;
+}
+.inner-container img {
+  border-radius: 50%;
+  padding: 20px 30px 30px 30px;
+}
+.inner-container h3 {
+  color: green;
+}
+.inner-container ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.inner-container li {
+  margin: 5px 0;
+}
+.inner-container button {
+  width: 300px;
+  background-color: rgba(33, 30, 30, 0.5);
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+.inner-container button:hover {
+  background-color: green;
+}
+.attribution {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+.att-ele {
+  padding: 10px;
+  color: grey;
+}
+.att-ele a {
+  padding: 10px;
+  text-decoration: none;
+  color: whitesmoke;
+}
